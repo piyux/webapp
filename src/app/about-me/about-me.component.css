@@ -111,9 +111,13 @@ section::after{
   display: flex;
 }
 
+ul{
+  padding-inline-start: 0px;
+}
 .container .card .sci li{
   opacity: 0;
-  margin: 0 20px;
+  padding: 0 20px;
+  align-content: center;
   list-style: none;
   transform: translateY(40px);
   transition: 0.7s;
